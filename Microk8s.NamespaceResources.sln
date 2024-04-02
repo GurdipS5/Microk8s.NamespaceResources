@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microk8s.NamespaceResources", "Microk8s.NamespaceResources\Microk8s.NamespaceResources.csproj", "{39064FA6-5204-434F-B58A-50D7B38B2B72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B1F4997B-835C-4044-8FC3-7ECDC6E8DCDC}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.commitlintrc.js = .commitlintrc.js
+		Microk8s.NamespaceResources.ndproj = Microk8s.NamespaceResources.ndproj
+		package-lock.json = package-lock.json
+		package.json = package.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "build\_build.csproj", "{EE35C41C-8A49-4098-B9B2-5B6608821E68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39064FA6-5204-434F-B58A-50D7B38B2B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39064FA6-5204-434F-B58A-50D7B38B2B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39064FA6-5204-434F-B58A-50D7B38B2B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39064FA6-5204-434F-B58A-50D7B38B2B72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE35C41C-8A49-4098-B9B2-5B6608821E68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE35C41C-8A49-4098-B9B2-5B6608821E68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80FAF189-399A-4349-9270-0360EC48D049}
+	EndGlobalSection
+EndGlobal

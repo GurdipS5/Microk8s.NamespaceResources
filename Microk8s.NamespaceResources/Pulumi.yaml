@@ -1,0 +1,7 @@
+name: Microk8s.Namespaces
+runtime: dotnet
+description: Microk8s Namespaces
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: ""

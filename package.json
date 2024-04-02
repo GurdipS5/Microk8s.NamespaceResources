@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "broken-link-checker": "^0.7.8",
+    "commitizen": "^4.3.0",
+    "eslint": "^8.57.0",
+    "readme-md-generator": "^1.0.0",
+    "write-good": "^1.0.8"
+  },
+  "devDependencies": {
+    "cspell": "^8.6.1",
+    "cz-git": "^1.9.1",
+    "husky": "^9.0.11",
+    "prettier": "3.2.5"
+  },
+  "commitizen": {
+    "path": "node_modules/cz-git",
+    "czConfig": "./config/cz.config.js"
+  }
+}
