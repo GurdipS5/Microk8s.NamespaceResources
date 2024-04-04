@@ -7,11 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microk8s.NamespaceResources
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B1F4997B-835C-4044-8FC3-7ECDC6E8DCDC}"
 	ProjectSection(SolutionItems) = preProject
-		.gitignore = .gitignore
 		.commitlintrc.js = .commitlintrc.js
+		.gitignore = .gitignore
+		CHANGELOG.md = CHANGELOG.md
+		CODEOWNERS.md = CODEOWNERS.md
+		gitguardian.yml = gitguardian.yml
 		Microk8s.NamespaceResources.ndproj = Microk8s.NamespaceResources.ndproj
 		package-lock.json = package-lock.json
 		package.json = package.json
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "build\_build.csproj", "{EE35C41C-8A49-4098-B9B2-5B6608821E68}"
